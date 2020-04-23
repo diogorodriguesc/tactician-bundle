@@ -27,7 +27,7 @@ class DebugCommand extends Command
         $this->setName('debug:tactician');
     }
 
-    public function execute(InputInterface $input, OutputInterface $output)
+    public function execute(InputInterface $input, OutputInterface $output): void
     {
         $io = new SymfonyStyle($input, $output);
 
